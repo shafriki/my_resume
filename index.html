@@ -12,34 +12,114 @@
 
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
 
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+
     <style>
         .roboto {
         font-family: "Roboto Mono", monospace;
+    }
+    .slab {
+    font-family: "Roboto Slab", serif;
+    }
+    .lobster {
+    font-family: "Lobster Two", sans-serif;
     }
     </style>
 
 </head>
 <body class="">
     <!-- header section start -->
-     <header class="">
-        <div class="flex items-center justify-center gap-10 pt-5">
+     <header class="max-w-screen-lg mx-auto">
+        <div class="flex flex-col lg:flex-row items-center justify-center lg:gap-10 pt-5">
             <!-- image content -->
-             <img src="propic.png" alt="" class="w-[150px] rounded-full">
+             <img src="propic.png" alt="" class="w-[150px] rounded-full border-4 border-red-500 border-opacity-50 shadow-xl p-1">
 
              <!-- text content -->
              <div class="flex flex-col items-center space-y-1">
-                <h1 class="uppercase text-4xl roboto font-medium"><span class="text-6xl text-red-500">S</span>hafriki <span class="text-6xl text-red-500">I</span>slam <span class="text-6xl text-red-500">S</span>hemul</h1>
+                <h1 class="uppercase text-xl lg:text-4xl roboto font-medium"><span class="text-4xl lg:text-6xl text-red-500">S</span>hafriki <span class="text-4xl lg:text-6xl text-red-500">I</span>slam <span class="text-4xl lg:text-6xl text-red-500">S</span>hemul</h1>
                 <div class="flex items-center gap-3">
-                    <p class="text-lg text-gray-500"><i class="fa-solid fa-phone text-lime-600"></i> +8801786141015</p>
-                    <p class="text-lg text-gray-500"><i class="fa-solid fa-envelope text-red-500"></i> shafriki.cse@gmail.com</p>
+                    <p class="text-sm lg:text-lg "><i class="fa-solid fa-phone text-lime-600"></i> +8801786141015</p>
+                    <p class="text-sm lg:text-lg"><i class="fa-solid fa-envelope text-red-500"></i> shafriki.cse@gmail.com</p>
                 </div>
-                <div class="flex items-center gap-3">
-                    <p class="text-lg text-gray-500"><i class="fa-brands fa-linkedin text-blue-500"></i> linkedin.com/in/shafrikiislam</p>
-                <p class="text-lg text-gray-500"><i class="fa-brands fa-github text-black"></i> https://github.com/shafriki</p>
+                <div class="flex flex-col lg:flex-row items-center lg:gap-3">
+                    <p class="text-sm lg:text-lg text-gray-500"><i class="fa-brands fa-linkedin text-blue-500"></i> linkedin.com/in/shafrikiislam</p>
+                <p class="text-sm lg:text-lg text-gray-500"><i class="fa-brands fa-github text-black"></i> https://github.com/shafriki</p>
                 </div>
              </div>
         </div>
      </header>
     <!-- header section end -->
+
+    <!-- main section start -->
+     <main>
+        <!-- about me section start -->
+        <section class="max-w-screen-xl mx-auto mt-5">
+            <div class="px-3 lg:px-0">
+                <h5 class="text-base lg:text-3xl font-medium lg:font-semibold roboto">About me</h5>
+                <hr class="border-[1px] border-black mb-1">
+                <!-- university -->
+                <div class="mb-1">
+                    <p class="slab text-xs lg:text-xl font-normal text-justify">I’m a fresher and looking for a
+                        position with a highly reputed organization. I have a great interest in Web Development. As a lifelong learner, I’m constantly expanding my
+                        skill set through professional and
+                        personal experiences. I believe that I
+                        have strong communication and
+                        problem-solving skills.</p>
+                    
+                </div>
+            </div>
+         </section>
+        <!-- about me section end -->
+        <!-- education section start -->
+         <section class="max-w-screen-xl mx-auto">
+            <div class="px-3 lg:px-0">
+                <h5 class="text-base lg:text-3xl font-medium lg:font-semibold roboto">Education</h5>
+                <hr class="border-[1px] border-black mb-1">
+                <!-- university -->
+                <div class="flex items-start lg:items-center justify-between mb-1">
+                    <p class="slab text-xs lg:text-2xl font-medium">Bangladesh Army University of <br class="lg:hidden">Engineering and Technology</p>
+                    <p class="slab text-xs lg:text-2xl font-medium">March 2020-May 2024</p>
+                </div>
+                <div class="flex item-center justify-between">
+                    <p class="lobster text-xs lg:text-base text-gray-500">Bachelor of Science in Computer Science and <br class="lg:hidden">Engineering(Current CGPA 2.75)</p>
+                    <p class="lobster text-xs lg:text-base text-gray-500">Natore, Rajshahi</p>
+                </div>
+
+                <!-- college -->
+                <div class="flex items-start lg:items-center justify-between mt-3 mb-1">
+                    <p class="slab text-xs lg:text-2xl font-medium">Rajshahi Shikkha Board Govt. <br class="lg:hidden">Model School and College</p>
+                    <p class="slab text-xs lg:text-2xl font-medium">May 2017 - August 2019</p>
+                </div>
+                <div class="flex item-center justify-between">
+                    <p class="lobster text-xs lg:text-base text-gray-500">Higher Secondary Certificate in Science(GPA 4.33)</p>
+                    <p class="lobster text-xs lg:text-base text-gray-500">Natore, Rajshahi</p>
+                </div>
+            </div>
+         </section>
+        <!-- education section end -->
+        <!-- experience section start -->
+        <section class="max-w-screen-xl mx-auto mt-5">
+            <div class="px-3 lg:px-0">
+                <h5 class="text-base lg:text-3xl font-medium lg:font-semibold roboto">Experience</h5>
+                <hr class="border-[1px] border-black mb-1">
+                <!-- university -->
+                <div class="flex items-start lg:items-center justify-between mb-1">
+                    <p class="slab text-xs lg:text-2xl font-medium">Bangladesh Research and Education Network (BdREN)</p>
+                    <p class="slab text-xs lg:text-2xl font-medium">May 2023–June 2023</p>
+                </div>
+                <div class="flex item-center justify-between">
+                    <p class="lobster text-xs lg:text-base text-gray-500">Internship Trainee</p>
+                    <p class="lobster text-xs lg:text-base text-gray-500">Dhaka, Bangladesh</p>
+                </div>
+                <div class="grid grid-cols-2 mt-1">
+                    <p class="lobster text-xs lg:text-base text-gray-700 text-justify">This was a one month Industrial Training where we learned about Routing and Switching, Installation and Configuration of Servers, Zoom Controller and Multi-Media Routers, Virtualisation Software, Cloud Computing Infrastructure.</p>
+                </div>
+            </div>
+         </section>
+        <!-- experience section end -->
+     </main>
+    <!-- main section end -->
 </body>
 </html>
