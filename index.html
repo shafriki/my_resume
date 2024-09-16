@@ -5,17 +5,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Resume</title>
     <link rel="stylesheet" href="style.css">
+
+    <script src="https://kit.fontawesome.com/7043c081d1.js" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+
+    <style>
+        .roboto {
+        font-family: "Roboto Mono", monospace;
+    }
+    </style>
+
 </head>
-<body>
+<body class="">
     <!-- header section start -->
-     <header>
-        <div>
+     <header class="">
+        <div class="flex items-center justify-center gap-10 pt-5">
             <!-- image content -->
-             <img src="" alt="">
+             <img src="propic.png" alt="" class="w-[150px] rounded-full">
 
              <!-- text content -->
-             <div>
-
+             <div class="flex flex-col items-center space-y-1">
+                <h1 class="uppercase text-4xl roboto font-medium"><span class="text-6xl text-red-500">S</span>hafriki <span class="text-6xl text-red-500">I</span>slam <span class="text-6xl text-red-500">S</span>hemul</h1>
+                <div class="flex items-center gap-3">
+                    <p class="text-lg text-gray-500"><i class="fa-solid fa-phone text-lime-600"></i> +8801786141015</p>
+                    <p class="text-lg text-gray-500"><i class="fa-solid fa-envelope text-red-500"></i> shafriki.cse@gmail.com</p>
+                </div>
+                <div class="flex items-center gap-3">
+                    <p class="text-lg text-gray-500"><i class="fa-brands fa-linkedin text-blue-500"></i> linkedin.com/in/shafrikiislam</p>
+                <p class="text-lg text-gray-500"><i class="fa-brands fa-github text-black"></i> https://github.com/shafriki</p>
+                </div>
              </div>
         </div>
      </header>
